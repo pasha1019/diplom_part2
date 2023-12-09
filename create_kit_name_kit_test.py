@@ -14,7 +14,6 @@ def put_new_order_track():
 
 
 def positive_assert(track):
-    print(track)
     # В переменную kit_response сохраняется результат запроса на создание набора:
     kit_response = sender_stand_request.get_order(track)
     # Проверяется, что код ответа равен 200
